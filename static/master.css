@@ -1,0 +1,27 @@
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #animations-example-3 {
+      height: 200px;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    #animations-example-3 tbody {
+      overflow-y: hidden; /* remove this to see how it works */
+    }
+    #animations-example-3 tbody th {
+      background-color: #fff;
+      z-index: 1;
+    }
+    #animations-example-3 tbody td {
+      animation: moving-bars 20s linear infinite;
+    }
+    @keyframes moving-bars {
+      0%  { transform: translateY( 100% ); }
+      15% { transform: translateY( 0 ); }
+    }

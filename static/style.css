@@ -1,0 +1,19 @@
+body{
+    margin: 0%;
+    overflow: hidden;
+    font-size: 1em!important;
+
+}
+.my-file { visibility: hidden; }
+
+.column .table{
+  justify-content:center!important;
+}
+
+#t{
+  width: 100%!important;
+}
+#t td{
+  padding:0!important;
+  margin:0!important;
+}
